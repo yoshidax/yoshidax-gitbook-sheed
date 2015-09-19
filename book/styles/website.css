@@ -1,0 +1,15 @@
+/* font setting */
+* {
+  font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+               "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
+}
+
+/* remove social buttons and publish anchor. */
+a.btn.pull-right.twitter-sharing-link.sharing-link,
+a.btn.pull-right.facebook-sharing-link.sharing-link,
+a.btn.pull-right.google-plus-sharing-link.sharing-link,
+.dropdown.pull-right,
+.book .book-summary ul.summary li.divider,
+a.gitbook-link {
+    display: none !important;
+}

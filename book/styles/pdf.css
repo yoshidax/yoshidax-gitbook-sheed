@@ -1,0 +1,27 @@
+/* font setting */
+* {
+  font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+               "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
+}
+
+/* fixed Cut off the end in table */
+table {
+	table-layout: fixed;
+	width: 100%;
+}
+table td, table th {
+	word-break: break-all;
+}
+
+/* fixed Cut off the end in code block */
+/* TODO: works well on the website but don't work on pdf. dammnn...
+.book .book-body .page-wrapper .page-inner section.normal .highlight pre,
+.book .book-body .page-wrapper .page-inner section.normal pre {
+	overflow: hidden !important;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre,
+.book .book-body .page-wrapper .page-inner section.normal pre code {
+	word-wrap: break-word !important;
+}
+*/

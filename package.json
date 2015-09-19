@@ -1,0 +1,25 @@
+{
+  "name": "yoshidax-gitbook-sheed",
+  "version": "1.0.0",
+  "description": "gitbook sheed project by yoshidax.",
+  "main": "index.js",
+  "scripts": {
+    "gb": "gitbook",
+    "gbinstall": "gitbook install book/",
+    "gbserve": "gitbook serve book/ --watch",
+    "exinstall": "cd external-project/web-starter-kit && npm install",
+    "exbuild": "cd external-project/web-starter-kit && ./node_modules/.bin/gulp default",
+    "exwatch": "gulp watch-and-copy-external-module",
+    "exdeploy": "gulp copy-external-module"
+  },
+  "author": "yoshidax",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "gitbook-cli": "^0.3.6",
+    "gulp": "^3.9.0",
+    "orchestrator": "^0.3.7",
+    "tsd": "^0.6.4"
+  }
+}
